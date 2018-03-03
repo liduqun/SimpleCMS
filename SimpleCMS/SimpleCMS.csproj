@@ -151,6 +151,7 @@
   <ItemGroup>
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="Sencha\.gitignore" />
     <Content Include="Sencha\app.js" />
     <Content Include="Sencha\app\Application.js" />
@@ -5802,6 +5803,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -7324,6 +7326,7 @@
     <Content Include="Sencha\Readme.md" />
     <Content Include="Sencha\resources\Readme.md" />
     <Content Include="Sencha\workspace.json" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
